@@ -12,6 +12,8 @@ namespace APIfinalPloomes.Models
         public string Ramo { get; set; }
         public int CNPJ { get; set; }
 
+        public List<Servico> Servicos { get; set; }
+
 
     }
 }

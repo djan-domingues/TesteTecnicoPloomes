@@ -13,7 +13,7 @@ namespace APIfinalPloomes.Models
 
         public double Preco { get; set; }
 
-        public Empresa Empresa { get; set; }
+        public List<Cliente> Clientes { get; set; }
 
         public int IdEmpresa { get; set; }
 

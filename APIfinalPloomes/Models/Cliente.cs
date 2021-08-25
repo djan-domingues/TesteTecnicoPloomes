@@ -15,8 +15,6 @@ namespace APIfinalPloomes.Models
 
         public string Cidade_Res { get; set; }
 
-        public Servico Servico { get; set; }
-
         public int IdServico { get; set; }
 
     }
